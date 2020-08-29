@@ -1,0 +1,1 @@
+This is a clone of a NYT article for the Position and Floating Elements project in The Odin Project's HTML and CSS Curriculum.
