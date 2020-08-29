@@ -15,6 +15,7 @@ body {
   height: 42px;
   width: 100%;
   background-color: #fff;
+  z-index: 1;
 }
 
 .navbar-content {
@@ -83,7 +84,7 @@ body {
   height: 26.5px;
 }
 
-.navbtn {
+.btn {
   padding: 11px 12px 8px;
   border-radius: 3px;
   cursor: pointer;
@@ -100,11 +101,11 @@ body {
   margin-right: 7px;
 }
 
-.navbtn:last-of-type{
+.btn:last-child {
   margin-right: 2px;
 }
 
-.subscribe:hover {
+.btn:hover {
   border: 1px solid rgb(50, 104, 145);
   background-color: rgb(50, 104, 145);
 }
@@ -143,18 +144,21 @@ body {
 
 .header-caption {
   width: 900px;
-  color: #666;
-  margin: 10px 20px 0 0;
   text-align: left;
 }
 
-.header-caption .caption {
+figcaption {
+  margin: 10px 20px 0 0;
+}
+
+figure .caption {
+  color: #666;
   font-size: 0.9375rem;
   line-height: 1.25rem;
   margin-right: 7px;
 }
 
-.header-caption .credit {
+figure .credit {
   font-size: 0.8125rem;
   color: #888;
   line-height: 1.25rem;
@@ -207,4 +211,274 @@ body {
 
 .socials i {
   margin-right: 16px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto 1rem;
+  display: flex;
+}
+
+.article-body {
+  width: 600px;
+  margin-left: 300px;
+}
+
+.story {
+  margin-bottom: 0.9375rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.story:last-child {
+  margin-bottom: 0;
+}
+
+.story a {
+  color: #326891;
+  text-decoration: underline;
+}
+
+.story a:hover {
+  text-decoration: none;
+}
+
+.subtitle {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 700;
+}
+
+.sidebar {
+  width: 210px;
+  margin: 0 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.editors-picks {
+  width: 100%;
+}
+
+.editors-picks h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: #000;
+  border-bottom: 1px solid rgb(226,226,226);
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.rec-article {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.rec-article img {
+  width: 75px;
+  height: 75px;
+}
+
+.rec-article h3 {
+  width: 125px;
+  margin: auto 0 auto 10px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(51,51,51);
+}
+
+.rec-article h3:hover {
+  text-decoration: underline;
+}
+
+.interactive-container {
+  width: 945px;
+  margin: 0 auto 20px;
+}
+
+.interactive-content {
+  padding: 15px 0;
+}
+
+.interactive-header {
+  margin-bottom: 10px;
+}
+
+.interactive-header h3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: #000;
+}
+
+.interactive-header p {
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #666;
+}
+
+.interactive-graphic {
+  background-image: url(../images/inflation.png);
+  background-size: 100% 100%;
+  width: 945px;
+  height: 576px;
+  position: relative;
+}
+
+.interactive-graphic p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.interactive-graphic .subtitle {
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: bold;
+  letter-spacing: .05em;
+  margin-right: 5px;
+}
+
+.i1 {
+  width: 228px;
+  position: absolute;
+  top: 24.5%;
+  left: 0;
+}
+
+.i2 {
+  width: 228px;
+  position: absolute;
+  top: 24.5%;
+  left: 25.5%;
+}
+
+.i3 {
+  width: 228px;
+  position: absolute;
+  top: 24.5%;
+  right: 25.5%
+}
+
+.i4 {
+  width: 228px;
+  position: absolute;
+  top: 24.5%;
+  right: 0;
+}
+
+.i5 {
+  width: 228px;
+  position: absolute;
+  bottom: 2.5%;
+  left: 0;
+}
+
+.i6 {
+  width: 228px;
+  position: absolute;
+  bottom: 2.5%;
+  left: 25.5%;
+}
+
+.i7 {
+  width: 228px;
+  position: absolute;
+  bottom: 2.5%;
+  right: 25.5%
+}
+
+.i8 {
+  width: 228px;
+  position: absolute;
+  bottom: 2.5%;
+  right: 0;
+}
+
+.interactive-footer {
+  width: 945px;
+  margin-top: 24px;
+}
+
+.interactive-footer::before {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
+.interactive-footer .credit {
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+}
+
+.youtube {
+  width: 600px;
+  margin: 43px auto;
+}
+
+.video-container {
+  width: 600px;
+  height: 357.5px;
+}
+
+.picture {
+  width: 720px;
+  margin: 2.6875rem auto;
+}
+
+.picture img  {
+  width: 100%;
+}
+
+.article-bottom {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.orig {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 1em;
+  color: rgb(102,102,102);
+}
+
+.orig a {
+  color: rgb(102,102,102);
+  text-decoration: underline;
+}
+
+.orig a:hover {
+  text-decoration: none;
+}
+
+.comments-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px auto 32px;
+}
+
+.comments-socials .btn {
+  padding: 5px 0;
+  line-height: 1.5rem;
+  font-size: 0.8125rem;
+  width: 330px;
 }
