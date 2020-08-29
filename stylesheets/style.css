@@ -1,0 +1,107 @@
+body {
+  color: #333;
+  background-color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #e2e2e2;
+  height: 42px;
+  width: 100%;
+}
+
+.navbar-content {
+  margin: 0 auto;
+  height: 36px;
+  width: 100%;
+  max-width: 1605px;
+  padding: 4px 15px 2px 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  box-sizing: border-box;
+  padding: 8px 9px 9px 9px;
+  width: 34px;
+  height: 33px;
+  text-align: center;
+}
+
+.icon:first-of-type {
+  padding-left: 0px;
+}
+
+.icon i {
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.section-label {
+  font-size: 14.25px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  margin-left: 22px;
+}
+
+.section-label a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section-label a:hover {
+  text-decoration: underline;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  height: 26px;
+  text-align: center;
+  align-self: center;
+  margin-left: -25px;
+}
+
+.navbar-center img {
+  height: 26.5px;
+}
+
+.navbtn {
+  padding: 11px 12px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: helvetica, arial, sans-serif;
+  transition: all 0.6s ease 0s;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-right: 7px;
+}
+
+.navbtn:last-of-type{
+  margin-right: 2px;
+}
+
+.subscribe:hover {
+  border: 1px solid rgb(50, 104, 145);
+  background-color: rgb(50, 104, 145);
+}
