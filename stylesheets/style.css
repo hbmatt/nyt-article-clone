@@ -482,3 +482,111 @@ figure .credit {
   font-size: 0.8125rem;
   width: 330px;
 }
+
+.more {
+  width: 1200px;
+  padding: 20px 3% 0;
+  margin: 34px auto 0;
+  display: flex;
+}
+
+.more h2 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  padding-top: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.more-articles {
+  width: 80%;
+  max-width: 852px;
+}
+
+.recs {
+  max-width: 852px;
+  border-top: 1px solid #000;
+}
+
+.articles-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.article-rec {
+  padding-bottom: 20px;
+  max-width: 32%;
+  flex-basis: 32%;
+}
+
+.article-rec img {
+  width: 100%;
+}
+
+.article-rec figcaption {
+  padding-bottom: 4px;
+  margin: 3px 0 0 0;
+  font-size: 0.625rem;
+  text-align: right;
+  color: rgb(153,153,153);
+  line-height: 1.23em;
+}
+
+.article-rec h3 {
+  padding-right: 10px;
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: rgb(18,18,18);
+}
+
+.article-rec p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.3px;
+  color: rgb(153,153,153);
+}
+
+.popular {
+  width: 320px;
+  margin-left: 30px;
+  padding-bottom: 15px;
+  border-top: 1px solid #000;
+}
+
+.popular h3 {
+  border-bottom: 1px solid rgb(226,226,226);
+  padding: 15px 0;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: rgb(18,18,18);
+  font-weight: 500;
+}
+
+.popular h3:first-of-type {
+  border-top: 1px solid rgb(226,226,226);
+  margin-top: 15px;
+}
+
+#footer {
+  padding: 0 3% 45px;
+  margin: 0 auto;
+  width: 1200px;
+  font-size: 11px;
+  border-top: 1px solid #ebebeb;
+  padding-top: 9px;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.footer-item {
+  margin: 0 0 35px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+}
